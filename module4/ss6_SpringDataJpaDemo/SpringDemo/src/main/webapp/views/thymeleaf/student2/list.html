@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List student</title>
+</head>
+<body>
+    <div th:insert="~{template.html::headerWithUser('linh')}"></div>
+    <h1>List Student</h1>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr th:each="stu, iter: ${students}">
+            <td th:text="${stu.id}"></td>
+            <td th:text="${stu.name}"></td>
+            <td th:text="${stu.age}"></td>
+            <td th:text="${stu.address}"></td>
+        </tr>
+    </table>
+    <div th:include="~{template.html::footer}"></div>
+</body>
+</html>

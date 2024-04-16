@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>Add role for user</h1>
+<form th:action="@{/user/addRole}" method="post" th:object="${userRole}">
+  <table>
+    <tr>
+      <td>User</td>
+      <td>
+        <select th:field="*{user}">
+          <option th:each="u : ${users}" th:value="${u.userId}" th:text="${u.userName}"></option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Role</td>
+      <td>
+        <select th:field="*{role}">
+          <option th:each="r: ${roles}" th:value="${r.roleId}" th:text="${r.roleName}"></option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="submit" value="Register">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
