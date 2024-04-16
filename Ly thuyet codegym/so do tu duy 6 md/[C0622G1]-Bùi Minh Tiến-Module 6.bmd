@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.2.1107.18434" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>MINH TIEN</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="New Chart 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="Module 6 - Project" x="1161" y="462" width="204" height="50" text_b="12, 12, 180, 26">
+          <style>
+            <back_color>IndianRed</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+            <font font_family="Times New Roman" size="15.75" style="Bold" />
+          </style>
+          <nodes>
+            <node id="2" text="App Đấu Giá" x="972" y="475" width="109" height="25" text_b="2, 2, 105, 21" fold_btn_b="958, 481, 13, 13">
+              <style>
+                <back_color>CadetBlue</back_color>
+                <font font_family="Times New Roman" size="12.75" style="Bold" />
+              </style>
+              <nodes>
+                <node id="22" text="ProductDetail" x="777" y="230" width="115" height="25" text_b="2, 2, 111, 21" fold_btn_b="763, 236, 13, 13">
+                  <style>
+                    <back_color>LightSteelBlue</back_color>
+                    <font font_family="Times New Roman" size="12.75" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node id="193" text="id" x="673" y="20" width="24" height="25" text_b="2, 2, 20, 21" fold_btn_b="659, 26, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="527" y="20" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="660, 20, 37, 25" end_rect="527, 20, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="2" text="name" x="647" y="55" width="50" height="25" text_b="2, 2, 46, 21" fold_btn_b="633, 61, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="514" y="55" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="634, 55, 63, 25" end_rect="514, 55, 53, 25" />
+                      </lines>
+                    </node>
+                    <node id="3" text="image" x="643" y="90" width="54" height="25" text_b="2, 2, 50, 21" fold_btn_b="629, 96, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="510" y="90" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="630, 90, 67, 25" end_rect="510, 90, 53, 25" />
+                      </lines>
+                    </node>
+                    <node id="4" text="productTypeId" x="581" y="125" width="116" height="25" text_b="2, 2, 112, 21" fold_btn_b="567, 131, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="435" y="125" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="568, 125, 129, 25" end_rect="435, 125, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="5" text="startTime" x="618" y="160" width="79" height="25" text_b="2, 2, 75, 21" fold_btn_b="604, 166, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="485" y="160" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="605, 160, 92, 25" end_rect="485, 160, 53, 25" />
+                      </lines>
+                    </node>
+                    <node id="6" text="endTime" x="624" y="195" width="73" height="25" text_b="2, 2, 69, 21" fold_btn_b="610, 201, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="491" y="195" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="611, 195, 86, 25" end_rect="491, 195, 53, 25" />
+                      </lines>
+                    </node>
+                    <node id="7" text="description" x="607" y="230" width="90" height="25" text_b="2, 2, 86, 21" fold_btn_b="593, 236, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="474" y="230" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="594, 230, 103, 25" end_rect="474, 230, 53, 25" />
+                      </lines>
+                    </node>
+                    <node id="8" text="status" x="645" y="283" width="52" height="25" text_b="2, 2, 48, 21" fold_btn_b="631, 289, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="499" y="283" width="66" height="25" text_b="2, 2, 62, 21" fold_btn_b="485, 289, 13, 13">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                          <nodes>
+                            <node id="18" text="Còn" x="380" y="265" width="39" height="25" text_b="2, 2, 35, 21">
+                              <style>
+                                <font font_family="Times New Roman" size="12.75" style="Regular" />
+                              </style>
+                            </node>
+                            <node id="19" text="Hết" x="384" y="300" width="35" height="25" text_b="2, 2, 31, 21">
+                              <style>
+                                <font font_family="Times New Roman" size="12.75" style="Regular" />
+                              </style>
+                            </node>
+                          </nodes>
+                          <lines>
+                            <line target="18" begin_side="Left" end_side="Right" begin_rect="486, 283, 79, 25" end_rect="380, 265, 39, 25" />
+                            <line target="19" begin_side="Left" end_side="Right" begin_rect="486, 283, 79, 25" end_rect="384, 300, 35, 25" />
+                          </lines>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="632, 283, 65, 25" end_rect="499, 283, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="11" text="Giá Gốc" x="627" y="335" width="70" height="25" text_b="2, 2, 66, 21" fold_btn_b="613, 341, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Double" x="485" y="335" width="62" height="25" text_b="2, 2, 58, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="614, 335, 83, 25" end_rect="485, 335, 62, 25" />
+                      </lines>
+                    </node>
+                    <node id="32" text="currentPrice (Giá Hiện Tại)" x="484" y="388" width="213" height="25" text_b="2, 2, 209, 21" fold_btn_b="470, 394, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Double" x="342" y="370" width="62" height="25" text_b="2, 2, 58, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                        <node id="33" text="Ban đầu gán = giá hiện tại mỗi lần đấu thì sẽ thay đổi" x="20" y="405" width="384" height="25" text_b="2, 2, 380, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="471, 388, 226, 25" end_rect="342, 370, 62, 25" />
+                        <line target="33" begin_side="Left" end_side="Right" begin_rect="471, 388, 226, 25" end_rect="20, 405, 384, 25" />
+                      </lines>
+                    </node>
+                    <node id="51" text="Bước giá" x="621" y="440" width="76" height="25" text_b="2, 2, 72, 21" fold_btn_b="607, 446, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="475" y="440" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="608, 440, 89, 25" end_rect="475, 440, 66, 25" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="193" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="673, 20, 24, 25" />
+                    <line target="2" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="647, 55, 50, 25" />
+                    <line target="3" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="643, 90, 54, 25" />
+                    <line target="4" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="581, 125, 116, 25" />
+                    <line target="5" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="618, 160, 79, 25" />
+                    <line target="6" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="624, 195, 73, 25" />
+                    <line target="7" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="607, 230, 90, 25" />
+                    <line target="8" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="645, 283, 52, 25" />
+                    <line target="11" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="627, 335, 70, 25" />
+                    <line target="32" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="484, 388, 213, 25" />
+                    <line target="51" begin_side="Left" end_side="Right" begin_rect="764, 230, 128, 25" end_rect="621, 440, 76, 25" />
+                  </lines>
+                </node>
+                <node id="10" text="ProductType" x="784" y="475" width="108" height="25" folded="True" text_b="2, 2, 104, 21" fold_btn_b="770, 481, 13, 13">
+                  <style>
+                    <back_color>LightSteelBlue</back_color>
+                    <font font_family="Times New Roman" size="12.75" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node id="193" text="id" x="4147" y="1529" width="24" height="25" text_b="2, 2, 20, 21" fold_btn_b="4133, 1535, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="4001" y="1529" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="4134, 1529, 37, 25" end_rect="4001, 1529, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="2" text="name" x="4121" y="1564" width="50" height="25" text_b="2, 2, 46, 21" fold_btn_b="4107, 1570, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="3988" y="1564" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="4108, 1564, 63, 25" end_rect="3988, 1564, 53, 25" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines />
+                </node>
+                <node id="25" text="User" x="847" y="580" width="45" height="25" text_b="2, 2, 41, 21" fold_btn_b="833, 586, 13, 13">
+                  <style>
+                    <back_color>LightSteelBlue</back_color>
+                    <font font_family="Times New Roman" size="12.75" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node id="193" text="id" x="743" y="510" width="24" height="25" text_b="2, 2, 20, 21" fold_btn_b="729, 516, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="597" y="510" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="730, 510, 37, 25" end_rect="597, 510, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="2" text="name" x="717" y="545" width="50" height="25" text_b="2, 2, 46, 21" fold_btn_b="703, 551, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="String" x="584" y="545" width="53" height="25" text_b="2, 2, 49, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="704, 545, 63, 25" end_rect="584, 545, 53, 25" />
+                      </lines>
+                    </node>
+                    <node id="39" text="Địa chỉ nhận hàng" x="620" y="580" width="147" height="25" text_b="2, 2, 143, 21" fold_btn_b="606, 586, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="474" y="580" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="607, 580, 160, 25" end_rect="474, 580, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="40" text="Điện Thoại" x="675" y="615" width="92" height="25" text_b="2, 2, 88, 21" fold_btn_b="661, 621, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="529" y="615" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="662, 615, 105, 25" end_rect="529, 615, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="41" text="Mail" x="723" y="650" width="44" height="25" text_b="2, 2, 40, 21" fold_btn_b="709, 656, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="577" y="650" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="710, 650, 57, 25" end_rect="577, 650, 66, 25" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="193" begin_side="Left" end_side="Right" begin_rect="834, 580, 58, 25" end_rect="743, 510, 24, 25" />
+                    <line target="2" begin_side="Left" end_side="Right" begin_rect="834, 580, 58, 25" end_rect="717, 545, 50, 25" />
+                    <line target="39" begin_side="Left" end_side="Right" begin_rect="834, 580, 58, 25" end_rect="620, 580, 147, 25" />
+                    <line target="40" begin_side="Left" end_side="Right" begin_rect="834, 580, 58, 25" end_rect="675, 615, 92, 25" />
+                    <line target="41" begin_side="Left" end_side="Right" begin_rect="834, 580, 58, 25" end_rect="723, 650, 44, 25" />
+                  </lines>
+                </node>
+                <node id="45" text="Đấu giá " x="824" y="808" width="68" height="25" text_b="2, 2, 64, 21" fold_btn_b="810, 814, 13, 13">
+                  <style>
+                    <back_color>LightSteelBlue</back_color>
+                    <font font_family="Times New Roman" size="12.75" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node id="193" text="id" x="720" y="685" width="24" height="25" text_b="2, 2, 20, 21" fold_btn_b="706, 691, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Interger" x="574" y="685" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="707, 685, 37, 25" end_rect="574, 685, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="2" text="productId" x="663" y="720" width="81" height="25" text_b="2, 2, 77, 21" fold_btn_b="649, 726, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="46" text="Interger" x="517" y="720" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="46" begin_side="Left" end_side="Right" begin_rect="650, 720, 94, 25" end_rect="517, 720, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="47" text="userId" x="687" y="755" width="57" height="25" text_b="2, 2, 53, 21" fold_btn_b="673, 761, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="46" text="Interger" x="541" y="755" width="66" height="25" text_b="2, 2, 62, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="46" begin_side="Left" end_side="Right" begin_rect="674, 755, 70, 25" end_rect="541, 755, 66, 25" />
+                      </lines>
+                    </node>
+                    <node id="48" text="Giá Đấu" x="672" y="825" width="72" height="25" text_b="2, 2, 68, 21" fold_btn_b="658, 831, 13, 13">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                      <nodes>
+                        <node id="1" text="Double" x="530" y="790" width="62" height="25" text_b="2, 2, 58, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                        <node id="33" text="Giá đấu &gt; giá max =&gt; mua ngay" x="355" y="825" width="237" height="25" text_b="2, 2, 233, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                        <node id="44" text="Giá đấu &lt; giá max =&gt; thời gian còn lại =0 =&gt; giá hiện tại" x="181" y="860" width="411" height="25" text_b="2, 2, 407, 21">
+                          <style>
+                            <font font_family="Times New Roman" size="12.75" style="Regular" />
+                          </style>
+                        </node>
+                      </nodes>
+                      <lines>
+                        <line target="1" begin_side="Left" end_side="Right" begin_rect="659, 825, 85, 25" end_rect="530, 790, 62, 25" />
+                        <line target="33" begin_side="Left" end_side="Right" begin_rect="659, 825, 85, 25" end_rect="355, 825, 237, 25" />
+                        <line target="44" begin_side="Left" end_side="Right" begin_rect="659, 825, 85, 25" end_rect="181, 860, 411, 25" />
+                      </lines>
+                    </node>
+                    <node id="49" text="Thời gian đấu giá" x="604" y="895" width="140" height="25" text_b="2, 2, 136, 21">
+                      <style>
+                        <back_color>#FFFFC0</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                    </node>
+                    <node id="53" text="Trạng Thái" x="651" y="930" width="93" height="25" text_b="2, 2, 89, 21">
+                      <style>
+                        <back_color>Red</back_color>
+                        <font font_family="Times New Roman" size="12.75" style="Bold, Italic" />
+                      </style>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="193" begin_side="Left" end_side="Right" begin_rect="811, 808, 81, 25" end_rect="720, 685, 24, 25" />
+                    <line target="2" begin_side="Left" end_side="Right" begin_rect="811, 808, 81, 25" end_rect="663, 720, 81, 25" />
+                    <line target="47" begin_side="Left" end_side="Right" begin_rect="811, 808, 81, 25" end_rect="687, 755, 57, 25" />
+                    <line target="48" begin_side="Left" end_side="Right" begin_rect="811, 808, 81, 25" end_rect="672, 825, 72, 25" />
+                    <line target="49" begin_side="Left" end_side="Right" begin_rect="811, 808, 81, 25" end_rect="604, 895, 140, 25" />
+                    <line target="53" begin_side="Left" end_side="Right" begin_rect="811, 808, 81, 25" end_rect="651, 930, 93, 25" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines>
+                <line target="22" begin_side="Left" end_side="Right" begin_rect="959, 475, 122, 25" end_rect="777, 230, 115, 25" />
+                <line target="10" begin_side="Left" end_side="Right" begin_rect="959, 475, 122, 25" end_rect="784, 475, 108, 25" />
+                <line target="25" begin_side="Left" end_side="Right" begin_rect="959, 475, 122, 25" end_rect="847, 580, 45, 25" />
+                <line target="45" begin_side="Left" end_side="Right" begin_rect="959, 475, 122, 25" end_rect="824, 808, 68, 25" />
+              </lines>
+            </node>
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="1161, 462, 204, 50" end_rect="972, 475, 109, 25" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+    <chart name="New Chart 2" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="161" text="Center Topic" x="513" y="377" width="98" height="42" text_b="12, 12, 74, 18">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
