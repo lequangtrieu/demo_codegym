@@ -20,7 +20,6 @@ function App() {
                     <Route path="students/update" element={<StudentUpdate/>}></Route>
                     <Route path="*" element={<NotFound/>}></Route>
                 </Routes>
-
                 <ToastContainer/>
             </BrowserRouter>
         </>
